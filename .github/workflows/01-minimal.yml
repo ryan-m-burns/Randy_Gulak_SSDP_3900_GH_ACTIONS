@@ -8,3 +8,5 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello from GitHub Actions"
+      - name: Output Date
+        run: echo "Current date is $(date)"
