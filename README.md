@@ -18,6 +18,7 @@ GitHub Actions is an automation platform built into GitHub that allows you to de
 ## How to Activate the Workflows
 
 1. **Clone this repository** or create a new repository and copy these files into it:
+
    ```bash
    git clone https://github.com/yourusername/learn-github-actions.git
    ```
@@ -25,10 +26,11 @@ GitHub Actions is an automation platform built into GitHub that allows you to de
 2. Make sure the `.github/workflows/*.yml` files are in your repository
 
 3. **Push any change** to trigger the workflows:
+
    ```bash
    # Make a small change
    echo "# My GitHub Actions learning journey" >> my_journey.md
-   
+
    # Commit and push
    git add my_journey.md
    git commit -m "Add learning journey file"
@@ -74,3 +76,5 @@ Each exercise includes tasks, expected outcomes, and guidance on how to run and 
 ## Feedback
 
 If you have any feedback or suggestions for improving this learning repository, please open an issue!
+
+RB
