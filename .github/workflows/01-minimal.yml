@@ -9,4 +9,4 @@ jobs:
       - name: Say Hello
         run: echo "Hello from GitHub Actions"
       - name: Output Date
-        run: echo "Current date is $(date -d "%A, %B %d, %Y")"
+        run: echo "Current date is $(date + "%A, %B %d, %Y")"
